@@ -1,29 +1,11 @@
 {
   "headers": [
     {
-      "source": "/log-lottery/js/*",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "*/js/*",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript;charset=utf-8"
-        }
-      ]
-    },
-    {
       "source": "/js/*",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/javascript;charset=utf-8"
+          "value": "application/javascript;"
         }
       ]
     },
