@@ -1,13 +1,26 @@
 {
   "headers": [
     {
-      "source": "/js/*",
+      "source": "/log-lottery/js/*",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/javascript;"
+          "value": "application/javascript;charset=utf-8"
         }
       ]
+    },
+  ],
+  "redirects": [
+    {
+      "source": "/log-lottery/",
+      "destination": "./",
+      "statusCode": 301
+    },
+  ],
+  "rewrites": [
+    {
+      "source": "/log-lottery/*",
+      "destination": "./",
     },
   ]
 }
