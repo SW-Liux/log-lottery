@@ -12,11 +12,6 @@
   ],
   "redirects": [
     {
-      "source": "**",
-      "destination": "/index.html",
-      "statusCode": 301
-    },
-    {
       "source": "/log-lottery/*",
       "destination": "/log-lottery/index.html",
       "statusCode": 301
@@ -28,10 +23,6 @@
     },
   ],
   "rewrites": [
-    {
-      "source": "**",
-      "destination": "/index.html"
-    },
     {
       "source": "/log-lottery/*",
       "destination": "/log-lottery/index.html"
