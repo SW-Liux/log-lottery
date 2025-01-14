@@ -1,15 +1,1 @@
-{
-  "redirects": [
-    {
-      "source": "/log-lottery/",
-      "destination": "./",
-      "statusCode": 301
-    },
-  ],
-  "rewrites": [
-    {
-      "source": "/log-lottery/*",
-      "destination": "./",
-    },
-  ]
-}
+
