@@ -1,0 +1,27 @@
+{
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+        "statusCode": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    }
+  ]
+  
+}
