@@ -12,21 +12,12 @@
   ],
   "redirects": [
     {
-      "source": "/log-lottery/*",
-      "destination": "/log-lottery/index.html",
-      "statusCode": 301
-    },
-    {
       "source": "./",
       "destination": "/",
       "statusCode": 301
     },
   ],
   "rewrites": [
-    {
-      "source": "/log-lottery/*",
-      "destination": "/log-lottery/index.html"
-    },
     {
       "source": "./",
       "destination": "/"
